@@ -24,10 +24,11 @@ AND last_name NOT LIKE '%qu%'
 GROUP BY last_name
 
 # 6
-SELECT COUNT(last_name)
+SELECT last_name, COUNT(last_name)
 FROM employees
 WHERE last_name LIKE '%q%'
 AND last_name NOT LIKE '%qu%'
+GROUP BY last_name;
 ORDER BY last_name;
 
 # 7
