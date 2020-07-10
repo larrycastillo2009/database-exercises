@@ -10,6 +10,5 @@ CREATE TABLE IF NOT EXISTS albums (
     sales FLOAT,
     genre VARCHAR(50),
     PRIMARY KEY (id)
-
 );
 
